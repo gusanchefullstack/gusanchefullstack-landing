@@ -17,6 +17,11 @@ header {
   background-color: #21325E;
   color: #F0F0F0;
 }
+
+.logo-header img {
+  display: block;
+}
+
 .nav-bar-options {
   display: flex;
   justify-content: space-evenly;
@@ -25,8 +30,13 @@ header {
   font-weight: bold;
 }
 .nav-bar-options li {
-  padding: 0 2rem;
+  margin: 0 1.2rem;
 }
+.nav-bar-options li:hover {
+  cursor: pointer;
+  color: #F1D00A;
+}
+
 footer {
   background-color: #3E497A;
   color: #F1D00A;
