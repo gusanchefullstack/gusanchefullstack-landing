@@ -10,7 +10,23 @@ body {
   background-color: #F0F0F0;
   font-family: 'Roboto', sans-serif;
 }
-
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #21325E;
+  color: #F0F0F0;
+}
+.nav-bar-options {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.nav-bar-options li {
+  padding: 0 2rem;
+}
 footer {
   background-color: #3E497A;
   color: #F1D00A;
@@ -33,13 +49,15 @@ footer {
 
 .contact-data-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
+  padding-top: 1rem;
 }
 
 .contact-data a {
   font-size: 1rem;
   margin-left: 0.8rem;
+  margin-bottom: 1rem;
 }
 
 .contact-data a:link,
